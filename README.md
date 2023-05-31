@@ -1,1 +1,1 @@
-# Proiect-Testare-Manuala-IT-Factory
+# Manual-Testing-Project-IT-Factory
