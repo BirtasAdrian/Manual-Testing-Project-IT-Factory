@@ -6,9 +6,9 @@ Application under test: https://demo.guru99.com/V4/index.php
 
 Documentation : https://docs.google.com/document/d/1rPW5DV82VJT6vtA1VDSrfxaCBuAduxW0zb1yfTh_VMk/edit 
 
-**The final project will be split into 2 sections:** (Testing section and SQL section when I finish all)
+**The final project will have the following section:** (Testing section when I finish all)
 
-Tools used: JIRA, Zephyr Squad, Postman, MySQL Workbench. 
+Tools used: JIRA, Zephyr Squad 
 
 # Functional specifications
 
@@ -45,3 +45,18 @@ The plan encompasses the identification of test items, the features targeted for
 *   The project has met its established deadline, ensuring timely completion.
 *   No significant risks remain unaddressed or unmitigated, reducing potential impacts on the project.
 *   As part of the testing process, exploratory regression testing needs to be carried out specifically on the Manager module, including all sections.
+
+#### 1.1.4 Test scope
+
+* __Tests in scope:__ functional testing will be conducted to ensure that all the features defined in the software requirement specifications for the Dependents module are thoroughly tested. This includes validating the functionality of each feature to ensure they meet the specified requirements.
+* __Tests not in scope:__ performance testing, integrations of the dependents module with other modules, compatibility testing with multiple browsers
+
+#### 1.1.5 Risks detected
+
+* Project risks: lack of experience of the QA team, short deadline of Zephyr Squad trial, unavailability of test environment
+* Product risks: a bad marketing, to have better competitors, to delay the project.
+
+#### 1.1.6 Evaluating entry criteria
+
+The entry criteria established during the Test Planning phase have been successfully met, indicating that the necessary conditions for the test process to proceed have been fulfilled. As a result, the test process can continue as planned.
+
