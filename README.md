@@ -58,5 +58,14 @@ The plan encompasses the identification of test items, the features targeted for
 
 #### 1.1.6 Evaluating entry criteria
 
-The entry criteria established during the Test Planning phase have been successfully met, indicating that the necessary conditions for the test process to proceed have been fulfilled. As a result, the test process can continue as planned.
+The entry criteria established during the Test Planning phase have been successfully met, indicating that the necessary conditions and prerequisites for the test process to proceed have been fulfilled. As a result, the test process can continue as planned.
+
+## 1.2 Test Monitoring and Control
+
+In order to monitor and track the progress of the testing process, periodic reports have been generated. These reports provide an up-to-date overview of the current status of testing activities. In the event of major problems or issues arising during testing, these reports serve as valuable tools for assessing the situation and implementing appropriate control measures to address and resolve the issues promptly.
+
+The following status report was generated (A status report will be updated here)
+
+## 1.3 Test Analysis
+
 
