@@ -6,7 +6,7 @@ Application under test: https://demo.guru99.com/V4/index.php
 
 Documentation : https://docs.google.com/document/d/1rPW5DV82VJT6vtA1VDSrfxaCBuAduxW0zb1yfTh_VMk/edit 
 
-**The final project will have the following section:** (Testing section when I finish all)
+**The final project will have the following section:** (Testing section will be updated here)
 
 Tools used: JIRA, Zephyr Squad 
 
