@@ -44,7 +44,7 @@ The plan encompasses the identification of test items, the features targeted for
 *   All bugs that have been resolved have undergone re-testing and have been approved by the QA team, ensuring their proper resolution.
 *   The project has met its established deadline, ensuring timely completion.
 *   No significant risks remain unaddressed or unmitigated, reducing potential impacts on the project.
-*   As part of the testing process, exploratory regression testing needs to be carried out specifically on the Manager module, including all sections.
+*   As part of the testing process, exploratory regression testing needs to be carried out specifically on the Manager section, including all modules.
 
 #### 1.1.4 Test scope
 
