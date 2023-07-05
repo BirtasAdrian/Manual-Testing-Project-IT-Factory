@@ -100,7 +100,7 @@ The following elements are needed to be ready before the test execution phase be
 
 * Testing environment is up and running: https://demo.guru99.com/V4/index.php
 * Access to the testing environment is given: Username : mngr511485 | Password : AnerEvE
-* Cycle summary was created 
+* Cycle summary was created "Guru99 Banking Application"
 * Test cases were added to the cycle summary
 
 ## 1.6 Test Execution
