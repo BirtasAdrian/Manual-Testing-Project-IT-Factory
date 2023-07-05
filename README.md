@@ -50,7 +50,7 @@ The plan encompasses the identification of test items, the features targeted for
 *   All bugs that have been resolved have undergone re-testing and have been approved by the QA team, ensuring their proper resolution.
 *   The project has met its established deadline, ensuring timely completion.
 *   No significant risks remain unaddressed or unmitigated, reducing potential impacts on the project.
-*   As part of the testing process, exploratory regression testing needs to be carried out specifically on the Manager section, including all modules.
+*   As part of the testing process, exploratory regression testing needs to be carried out specifically on the Manager section, including New Customer, Edit Customer, Delete Customer, New Account, Edit Account, Delete Account modules.
 
 #### 1.1.4 Test scope
 
@@ -116,10 +116,17 @@ The following elements are needed to be ready before the test execution phase be
 
 ## 1.7 Test Completion
 
-* As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
-* The traceability matrix was generated and can be found here: [Traceability_matrix.csv](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/Traceability_matrix.xlsx)
-* Test execution chart was generated, the final report shows that a number 5 tests have failed of a total of 23 
-* A number of 23 test cases were planned for execution and all of them were executed
-* A number of 5 total bugs were found, from which the priority is: 1 is high, 4 are medium and 1 is low
+* As the Exit criteria have not been met and satisfied as mentioned in the appropriate section, this features are suggested to be fixed and retesting by the Testing team
+* After the bug "The Account No is missing on Created Account form" has been fixed it will be possible to continue testing with Edit Account and Delete Account modules.
+* The traceability matrix was generated and and looks like this :
 
+  ![Traceability Matrix 1](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/assets/90641668/c788da20-85f0-439b-9030-07827890be59)
+
+[Traceability Matrix Excel](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/tree/9df16baf55af3aea6e1e24976d5d29ac7ec885e1/Guru99%20Banking%20Project/Traceability%20Matrix)
+
+* Test execution chart was generated, the final report shows that a number of 2 tests have failed of a total of 33 
+* A number of 33 test cases were planned for execution and all of them were executed
+* A number of 2 total bugs were found, from which the priority is: 1 is high and 1 is low
+
+![Test Execution](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/assets/90641668/243f42f7-ce2c-4b27-8913-f29386651cfd)
 
