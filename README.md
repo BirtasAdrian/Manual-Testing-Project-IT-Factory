@@ -105,9 +105,12 @@ The following elements are needed to be ready before the test execution phase be
 
 ## 1.6 Test Execution
 
-* Test cases are executed on the created test Cycle summary
+* Test cases are executed on the created test Cycle summary "Guru99 Banking Application"
 *  Bugs have been created based on the failed tests
   
+  [The Account No is missing on Created Account form](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/blob/a595c03d2247199014d724025c38286cd92a32f5/Guru99%20Banking%20Project/Bugs/The%20Account%20No%20is%20missing%20on%20Created%20Account%20form.pdf)
+
+  [The word Manager is misspelled on the home page ](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/blob/a595c03d2247199014d724025c38286cd92a32f5/Guru99%20Banking%20Project/Bugs/The%20word%20Manager%20is%20misspelled%20on%20the%20home%20page%20.pdf)
  
 * Full regression testing is needed after the bugs are fixed
 
