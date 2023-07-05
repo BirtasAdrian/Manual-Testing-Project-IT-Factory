@@ -13,6 +13,7 @@ Tools used: JIRA, Zephyr Squad
 The following stories were generated in JIRA and outline the functional specifications of the Dependants modules, which serve as the focus for the final project.
 
 [Create New Customer Story](Guru99 Banking Project/Create New Customer Story.pdf)
+Guru99 Banking Project/Create New Customer Story.pdf
 
 
 # 1 Testing section
