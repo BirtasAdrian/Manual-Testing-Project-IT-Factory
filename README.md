@@ -13,6 +13,7 @@ Tools used: JIRA, Zephyr Squad
 The following stories were generated in JIRA and outline the functional specifications of the Dependants modules, which serve as the focus for the final project.
 
 [Create New Customer Story](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/blob/d1b1d2cf8b99ad63046770005718e7dd7d160781/Guru99%20Banking%20Project/Create%20New%20Customer%20Story.pdf)
+
 [Edit Customer Story](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/blob/91eac541caeaa5499f4ed18cb7fc5da56185e403/Guru99%20Banking%20Project/Edit%20Customer%20Story.pdf)
 
 
