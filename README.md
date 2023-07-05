@@ -16,7 +16,11 @@ The following stories were generated in JIRA and outline the functional specific
 
 [Edit Customer Story](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/blob/91eac541caeaa5499f4ed18cb7fc5da56185e403/Guru99%20Banking%20Project/Edit%20Customer%20Story.pdf)
 
+[Delete Customer Story](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/blob/e1eaf9f386152d41d916fc62277f463b2c90b4ca/Guru99%20Banking%20Project/Delete%20Customer%20Story.pdf)
 
+[New Account Story](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/blob/e1eaf9f386152d41d916fc62277f463b2c90b4ca/Guru99%20Banking%20Project/New%20Account%20Story.pdf)
+
+[Edit Account Story](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/blob/e1eaf9f386152d41d916fc62277f463b2c90b4ca/Guru99%20Banking%20Project/Edit%20Account%20Story.pdf)
 
 # 1 Testing section
 
