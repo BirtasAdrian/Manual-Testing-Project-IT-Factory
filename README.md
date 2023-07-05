@@ -92,3 +92,5 @@ are boundary value analysis, equivalence partitioning and use case testing.
 ![image](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/assets/90641668/b7ae200a-f576-41a9-ba26-f41e97738c2d)
 
 The test cases with steps can be viewed here (Download and open in a browser): [Test Cases](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/blob/b4242b46ab1c784ce5af5294fbfaa29eef183fff/Guru99%20Banking%20Project/Test%20Cycle%20Summary/ZFJ-Cycles-07-04-2023.html)
+
+https://<BirtasAdrian>.github.io/<Guru99 Banking Project/Test Cycle Summary/ZFJ-Cycles-07-04-2023.html>/index.html
