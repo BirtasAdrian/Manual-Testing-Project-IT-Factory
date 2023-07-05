@@ -70,7 +70,9 @@ The entry criteria established during the Test Planning phase have been successf
 
 In order to monitor and track the progress of the testing process, periodic reports have been generated. These reports provide an up-to-date overview of the current status of testing activities. In the event of major problems or issues arising during testing, these reports serve as valuable tools for assessing the situation and implementing appropriate control measures to address and resolve the issues promptly.
 
-The following status report was generated (A status report will be updated here)
+The following status report was generated
+
+![Test Execution](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/assets/90641668/0618e52f-b0ab-432c-a97d-1e0703f2b15a)
 
 ## 1.3 Test Analysis
 
