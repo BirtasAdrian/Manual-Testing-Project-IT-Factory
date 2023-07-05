@@ -72,7 +72,7 @@ In order to monitor and track the progress of the testing process, periodic repo
 
 The following status report was generated
 
-![Test Execution](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/assets/90641668/0618e52f-b0ab-432c-a97d-1e0703f2b15a)
+![Daily Test Execution Progress](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/assets/90641668/48b558c1-afb7-40ba-9704-d8c108d0ed50)
 
 ## 1.3 Test Analysis
 
