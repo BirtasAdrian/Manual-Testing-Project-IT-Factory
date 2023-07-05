@@ -1,0 +1,2428 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>ZFJ - Html Report for Executions</title>
+        <script type="text/javascript">
+        function altRows ( id ) {
+            if ( document.getElementsByTagName ) {
+                var table = document.getElementById ( id ) ;
+                var rows = table.getElementsByTagName ( "tr" ) ;
+                for ( i = 0 ; i < rows.length ; i ++ ) {
+                    if ( i % 2 == 0 ) {
+                        rows[ i ].className = "evenrowcolor" ;
+                    } else {
+                        rows[ i ].className = "oddrowcolor" ;
+                    }
+                }
+            }
+        }
+        window.onload = function ( ) {
+            altRows ( 'alternatecolor' ) ;
+        }
+        </script>
+        <style type="text/css">
+        table.altrowstable {
+            font-family : verdana, arial, sans-serif ;
+            font-size : 9px ;
+            padding-left : 50px ;
+            color : #333333 ;
+            border-width : 1px ;
+            border-color : #a9c6c9 ;
+            border-collapse : collapse ;
+        }
+        table.altrowstable th {
+            border-width : 1px ;
+            padding : 8px ;
+            border-style : solid ;
+            border-color : #a9c6c9 ;
+        }
+        table.altrowstable thead {
+            font-weight : bold ;
+        }
+        table.altrowstable td {
+            border-width : 1px ;
+            padding : 8px ;
+            border-style : solid ;
+            border-color : #a9c6c9 ;
+        }
+        .oddrowcolor {
+            background-color : #d4e3e5 ;
+        }
+        .evenrowcolor {
+            background-color : none ;
+        }
+        </style>
+    </head>
+    <body>
+
+        <table class="altrowstable" id="alternatecolor" border="1" cellspacing="0" cellpadding="0" style="padding-left : 50 px ; overflow-y = scroll ;">
+            <thead>
+                <th>ExecutionId</th>
+                <th>Cycle</th>
+                <th>Folder Name</th>
+                <th>Issue Key</th>
+                <th>Test Summary</th>
+                <th>Project</th>
+                <th>Component</th>
+                <th>Version</th>
+                <th>Priority</th>
+                <th>Executed By</th>
+                <th>Executed On</th>
+                <th>Execution Status</th>
+                <th>Execution Defect(s)</th>
+                <th>Creation Date</th>
+                <th>Assigned To</th>
+                <th>Execution Custom Field</th>
+                <th>Work Flow Status</th>
+                <th>Total Execution Time</th>
+                <th>Total Logged Time</th>
+                <th>StepId</th>
+                <th>OrderId</th>
+                <th>Step</th>
+                <th>Test Data</th>
+                <th>Expected Result</th>
+                <th>Step Result</th>
+                <th>Comment</th>
+                <th>Test Step Custom Field</th>
+            </thead>
+            <tbody>
+            
+                
+                    <tr>
+                        <td rowspan="11">a5e369d4-4d22-45ee-b511-aad08921463a</td>
+                        <td rowspan="11">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="11">Test Cases for Create New Customer Module</td>
+                        <td rowspan="11">IT-3</td>
+                        <td rowspan="11">Create a new customer</td>
+                        <td rowspan="11">ITFactory AdrianB</td>
+                        <td rowspan="11"></td>
+                        <td rowspan="11">Guru99 Banking Application</td>
+                        <td rowspan="11">High</td>
+                        <td rowspan="11">Birtaş Adrian</td>
+                        <td rowspan="11">25/Jun/23 11:50 PM</td>
+                        <td rowspan="11">PASS</td>
+                        <td rowspan="11"></td>
+                        <td rowspan="11">25/Jun/23 11:49 PM</td>
+                        <td rowspan="11">Birtaş Adrian</td>
+                        <td rowspan="11"></td>
+                        <td rowspan="11"></td>
+                        <td rowspan="11"></td>
+                        <td rowspan="11"></td>
+                        
+                            <td>0f1ba66b-624d-40b6-8b02-47a82bb6f7d4</td>
+                            <td>1</td>
+                            <td><p>Introduce a customer name in Customer Name field</p></td>
+                            <td><p>Adrian Popescu</p></td>
+                            <td><p>The manager should be able to introduce a  complete name in Customer Name field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>b7013eb6-de77-4ed8-a4b6-7643b46863bf</td>
+                            <td>2</td>
+                            <td><p>Select a gender for Customer</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to select a gender for customer</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>5ae4cf17-a901-41d7-93ab-879b6996a6f6</td>
+                            <td>3</td>
+                            <td><p>Select a date of birth for Customer</p></td>
+                            <td><p>11/03/1997</p></td>
+                            <td><p>The manger should be able to select a date of birth for customer</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>30874479-806f-4b3b-bbea-ad1238dbebc4</td>
+                            <td>4</td>
+                            <td><p>Introduce an address in Address field</p></td>
+                            <td><p>Strada Florilor </br>nr 5</p></td>
+                            <td><p>The manager should be able to introduce the address for customer</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>fb13dd3a-dd76-4036-9872-9c09086f1bca</td>
+                            <td>5</td>
+                            <td><p>Introduce a city for Customer</p></td>
+                            <td><p>Cluj Napoca</p></td>
+                            <td><p>The manager should be able to introduce the city of customer</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>3bf59540-f5fe-4513-ac0e-8b21fe7889a2</td>
+                            <td>6</td>
+                            <td><p>Introduce a state for Customer</p></td>
+                            <td><p>Romania</p></td>
+                            <td><p>The manager should be able to introduce the state of customer</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>f09164b9-b3b6-44b8-b8f3-a1c59227da34</td>
+                            <td>7</td>
+                            <td><p>Introduce a PIN for Customer</p></td>
+                            <td><p>567896</p></td>
+                            <td><p>The manager should be able to introduce the PIN for customer</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>cf6e2914-9231-44ab-87ea-5e70b99718f3</td>
+                            <td>8</td>
+                            <td><p>Introduce a mobile number for Customer</p></td>
+                            <td><p>0757588969</p></td>
+                            <td><p>The manager should be able to introduce the mobile number for customer</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>e9ed0008-d4f2-4476-9b17-ddb2a9275638</td>
+                            <td>9</td>
+                            <td><p>Introduce an e-mail address for Customer</p></td>
+                            <td><p>adrian1.test@gmail.com</p></td>
+                            <td><p>The manager should be able to introduce the e-mail address for customer</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>57042b32-1692-43f5-a957-1a0c9705d4ec</td>
+                            <td>10</td>
+                            <td><p>Introduce a password for Customer</p></td>
+                            <td><p>123456g</p></td>
+                            <td><p>The manager should be able to introduce the password for customer</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>a4465aea-04c2-4de2-9f51-cd4e68567490</td>
+                            <td>11</td>
+                            <td><p>Press "Submit" button</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to create a new customer account. A message "Customer Registered Successfully!!!" and a form with all customer introduced details</br> will be displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="11">b9e259d9-da5c-42fd-b7d3-88c80bd2f544</td>
+                        <td rowspan="11">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="11">Test Cases for Create New Customer Module</td>
+                        <td rowspan="11">IT-4</td>
+                        <td rowspan="11">Reset a new customer form</td>
+                        <td rowspan="11">ITFactory AdrianB</td>
+                        <td rowspan="11"></td>
+                        <td rowspan="11">Guru99 Banking Application</td>
+                        <td rowspan="11">Medium</td>
+                        <td rowspan="11">Birtaş Adrian</td>
+                        <td rowspan="11">25/Jun/23 11:54 PM</td>
+                        <td rowspan="11">PASS</td>
+                        <td rowspan="11"></td>
+                        <td rowspan="11">25/Jun/23 11:53 PM</td>
+                        <td rowspan="11">Birtaş Adrian</td>
+                        <td rowspan="11"></td>
+                        <td rowspan="11"></td>
+                        <td rowspan="11"></td>
+                        <td rowspan="11"></td>
+                        
+                            <td>f5669fcf-f9f4-46af-b260-bbbcb617b029</td>
+                            <td>1</td>
+                            <td><p>Introduce a customer name in Customer Name field</p></td>
+                            <td><p>Adrian Popescu</p></td>
+                            <td><p>The manager should be able to introduce a  complete name in Customer Name field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>a861db94-4f35-45e1-9594-536a88aedeb1</td>
+                            <td>2</td>
+                            <td><p>Select a gender for Customer</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to select a gender for customer</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>363c8bcc-3baf-4972-af45-b4e35865d49b</td>
+                            <td>3</td>
+                            <td><p>Select a date of birth for Customer</p></td>
+                            <td><p>11/03/1997</p></td>
+                            <td><p>The manger should be able to select a date of birth for customer</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>f6a23365-2633-4e72-9380-9047757f79da</td>
+                            <td>4</td>
+                            <td><p>Introduce an address in Address field</p></td>
+                            <td><p>Strada Florilor </br>nr 5</p></td>
+                            <td><p>The manager should be able to introduce the address for customer</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>064cc0f8-3aa3-44f9-ac29-8c64bed6d33f</td>
+                            <td>5</td>
+                            <td><p>Introduce a city for Customer</p></td>
+                            <td><p>Cluj Napoca</p></td>
+                            <td><p>The manager should be able to introduce the city of customer</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>cc6ab37a-98a3-4d9a-ad91-7ea8ca21a3d0</td>
+                            <td>6</td>
+                            <td><p>Introduce a state for Customer</p></td>
+                            <td><p>Romania</p></td>
+                            <td><p>The manager should be able to introduce the state of customer</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>4354ab8c-32d3-4c19-8c65-1795b5c940fc</td>
+                            <td>7</td>
+                            <td><p>Introduce a PIN for Customer</p></td>
+                            <td><p>567896</p></td>
+                            <td><p>The manager should be able to introduce the PIN for customer</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>2a9aff09-79e9-48bb-b638-487688187b89</td>
+                            <td>8</td>
+                            <td><p>Introduce a mobile number for Customer</p></td>
+                            <td><p>0757588969</p></td>
+                            <td><p>The manager should be able to introduce the mobile number for customer</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>9cde4954-35dd-4471-a8c4-c693f2980fb9</td>
+                            <td>9</td>
+                            <td><p>Introduce an e-mail address for Customer</p></td>
+                            <td><p>adrian1.test@gmail.com</p></td>
+                            <td><p>The manager should be able to introduce the e-mail address for customer</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>fe1c746d-d046-4361-8ad0-2f88c79edd98</td>
+                            <td>10</td>
+                            <td><p>Introduce a password for Customer</p></td>
+                            <td><p>123456g</p></td>
+                            <td><p>The manager should be able to introduce the password for customer</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>72c51ee2-64d7-43c7-b8bd-681a0357020c</td>
+                            <td>11</td>
+                            <td><p>Press "Reset" button</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to reset all introduced data from New Customer Form. </p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">a93c2995-a00c-4bac-8a6b-673ea850265a</td>
+                        <td rowspan="4">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="4">Test Cases for Create New Customer Module</td>
+                        <td rowspan="4">IT-12</td>
+                        <td rowspan="4">Check validations for the Customer Name field</td>
+                        <td rowspan="4">ITFactory AdrianB</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">Guru99 Banking Application</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4">25/Jun/23 11:55 PM</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">25/Jun/23 11:54 PM</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>694272cd-2c79-4b73-824a-81db681484b6</td>
+                            <td>1</td>
+                            <td><p>Introduce a numbers in Customer Name field, repeat this step for all Test Data</p></td>
+                            <td><p>1, 5, 10</p></td>
+                            <td><p>A message "Numbers are not allowed" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>44f94904-377b-46a2-841c-ca15729ba4f1</td>
+                            <td>2</td>
+                            <td><p>Introduce a special character in Customer Name field, repeat this step for all Test Data</p></td>
+                            <td><p>1. ~</br>2. `</br>3. !</br>4. @</br>5. #</br>6. $</br>7. % </br>8. ^ </br>9. &</br>10. *</br>11. (</br>12. )</br>13. - </br>14. _</br>15. +</br>16.  =</br>17.  {</br>18.  }</br>19. [ </br>20.  ] </br>21.  |</br>22. \</br>23.  /</br>24. :</br>25. ; </br>26. " </br>27. '</br>28. &#60;</br>29. &#62;</br>30. ,</br>31. .</br>32. ?</br>33. ±</br>34. §</p></td>
+                            <td><p>A message "Special characters are not allowed" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>3dd210e7-73fe-4396-b508-c36327ed6bd8</td>
+                            <td>3</td>
+                            <td><p>Press click on Customer Name field and after that click on the white space next to the field</p></td>
+                            <td></td>
+                            <td><p>A message " Customer name must not be blank" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>a6dd8bcf-f996-46e8-81d1-b8ff4cd4c375</td>
+                            <td>4</td>
+                            <td><p>Pres click on Customer Name field and press Space button</p></td>
+                            <td></td>
+                            <td><p>A message " First character can not have space" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">dfbb9789-1464-4083-9bb4-d061c1df29d0</td>
+                        <td rowspan="3">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="3">Test Cases for Create New Customer Module</td>
+                        <td rowspan="3">IT-13</td>
+                        <td rowspan="3">Check validations for the Address field</td>
+                        <td rowspan="3">ITFactory AdrianB</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Guru99 Banking Application</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3">Birtaş Adrian</td>
+                        <td rowspan="3">25/Jun/23 11:56 PM</td>
+                        <td rowspan="3">PASS</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">25/Jun/23 11:56 PM</td>
+                        <td rowspan="3">Birtaş Adrian</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        
+                            <td>2bc89a70-e07c-47aa-9833-5988eeb0182d</td>
+                            <td>1</td>
+                            <td><p>Press click on Address field and after that click on the white space next to the field</p></td>
+                            <td></td>
+                            <td><p>A message "  Address Field must not be blank" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>8e77e028-f718-45bf-b043-4038bf983bba</td>
+                            <td>2</td>
+                            <td><p>Pres click on Address field and press Space button</p></td>
+                            <td></td>
+                            <td><p>A message " First character can not have space" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>666ad302-548a-49d7-852a-f66a83ad72cd</td>
+                            <td>3</td>
+                            <td><p>Introduce a special character in Address field, repeat this step for all Test Data</p></td>
+                            <td><p>1. ~</br>2. `</br>3. !</br>4. @</br>5. #</br>6. $</br>7. % </br>8. ^ </br>9. &</br>10. *</br>11. (</br>12. )</br>13. - </br>14. _</br>15. +</br>16.  =</br>17.  {</br>18.  }</br>19. [ </br>20.  ] </br>21.  |</br>22. \</br>23.  /</br>24. :</br>25. ; </br>26. " </br>27. '</br>28. &#60;</br>29. &#62;</br>30. ,</br>31. .</br>32. ?</br>33. ±</br>34. §</p></td>
+                            <td><p>A message "Special characters are not allowed" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">de33c8d0-961a-4ca4-8bad-478f5c4e17be</td>
+                        <td rowspan="4">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="4">Test Cases for Create New Customer Module</td>
+                        <td rowspan="4">IT-14</td>
+                        <td rowspan="4">Check validations for the City field</td>
+                        <td rowspan="4">ITFactory AdrianB</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">Guru99 Banking Application</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4">25/Jun/23 11:58 PM</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">25/Jun/23 11:57 PM</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>89b891e7-4abc-422f-8316-bb40b4747bd1</td>
+                            <td>1</td>
+                            <td><p>Introduce a special character in City field, repeat this step for all Test Data</p></td>
+                            <td><p>1. ~</br>2. `</br>3. !</br>4. @</br>5. #</br>6. $</br>7. % </br>8. ^ </br>9. &</br>10. *</br>11. (</br>12. )</br>13. - </br>14. _</br>15. +</br>16.  =</br>17.  {</br>18.  }</br>19. [ </br>20.  ] </br>21.  |</br>22. \</br>23.  /</br>24. :</br>25. ; </br>26. " </br>27. '</br>28. &#60;</br>29. &#62;</br>30. ,</br>31. .</br>32. ?</br>33. ±</br>34. §</p></td>
+                            <td><p>A message "Special characters are not allowed" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>d793617a-3e34-498f-a30a-be7613ed2460</td>
+                            <td>2</td>
+                            <td><p>Press click on City field and after that click on the white space next to the field</p></td>
+                            <td></td>
+                            <td><p>A message "  City Field must not be blank" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>9f6a6913-50e7-489c-a1d3-651e2ff1ba7f</td>
+                            <td>3</td>
+                            <td><p>Introduce a number in City field, repeat this step for all Test Data</p></td>
+                            <td><p>1, 5, 10</p></td>
+                            <td><p>A message "  Numbers are not allowed" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>cd80b5d3-358f-4810-b782-8b9f0b876817</td>
+                            <td>4</td>
+                            <td><p>Pres click on City field and press Space button</p></td>
+                            <td></td>
+                            <td><p>A message "  First character can not have space" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">c8bdb680-b1ea-49a3-bb96-fac6f62b994d</td>
+                        <td rowspan="4">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="4">Test Cases for Create New Customer Module</td>
+                        <td rowspan="4">IT-15</td>
+                        <td rowspan="4">Check validations for the State field</td>
+                        <td rowspan="4">ITFactory AdrianB</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">Guru99 Banking Application</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4">25/Jun/23 11:59 PM</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">25/Jun/23 11:59 PM</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>7895b49d-655a-4407-9c97-cb2b56b76174</td>
+                            <td>1</td>
+                            <td><p>Introduce a number in State field, repeat this step for all Test Data</p></td>
+                            <td><p>1, 5, 10</p></td>
+                            <td><p>A message "  Numbers are not allowed" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>a547275e-c89f-4c56-b8d7-bc6213cc746e</td>
+                            <td>2</td>
+                            <td><p>Press click on State field and after that click on the white space next to the field</p></td>
+                            <td></td>
+                            <td><p>A message "  State must not be blank" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>58e209f6-febb-493e-83e6-708a7c6bb2e1</td>
+                            <td>3</td>
+                            <td><p>Introduce a special character in State field, repeat this step for all Test Data</p></td>
+                            <td><p>1. ~</br>2. `</br>3. !</br>4. @</br>5. #</br>6. $</br>7. % </br>8. ^ </br>9. &</br>10. *</br>11. (</br>12. )</br>13. - </br>14. _</br>15. +</br>16.  =</br>17.  {</br>18.  }</br>19. [ </br>20.  ] </br>21.  |</br>22. \</br>23.  /</br>24. :</br>25. ; </br>26. " </br>27. '</br>28. &#60;</br>29. &#62;</br>30. ,</br>31. .</br>32. ?</br>33. ±</br>34. §</p></td>
+                            <td><p>A message "  Special characters are not allowed" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>b7786e4e-56ac-42c0-9c45-20c8db7f2981</td>
+                            <td>4</td>
+                            <td><p>Pres click on State field and press Space button</p></td>
+                            <td></td>
+                            <td><p>A message "  First character can not have space" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="5">4fe937ec-7e4e-417f-9bb4-88bc0c934bf0</td>
+                        <td rowspan="5">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="5">Test Cases for Create New Customer Module</td>
+                        <td rowspan="5">IT-16</td>
+                        <td rowspan="5">Check validations for the PIN field</td>
+                        <td rowspan="5">ITFactory AdrianB</td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5">Guru99 Banking Application</td>
+                        <td rowspan="5">Medium</td>
+                        <td rowspan="5">Birtaş Adrian</td>
+                        <td rowspan="5">26/Jun/23 12:02 AM</td>
+                        <td rowspan="5">PASS</td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5">26/Jun/23 12:01 AM</td>
+                        <td rowspan="5">Birtaş Adrian</td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5"></td>
+                        
+                            <td>35d92d69-8b98-4963-a334-5cc367137fad</td>
+                            <td>1</td>
+                            <td><p>Introduce a character in PIN field, repeat this step for all Test Data</p></td>
+                            <td><p>a, b, c, d</p></td>
+                            <td><p>A message "  Characters are not allowed" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>779b5379-cb0f-44bb-9454-f9bb4f3ee9b0</td>
+                            <td>2</td>
+                            <td><p>Press click on PIN field and after that click on the white space next to the field</p></td>
+                            <td></td>
+                            <td><p>A message "  PIN Code must not be blank" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>65de3e28-f533-40f5-9c4a-73df63f82278</td>
+                            <td>3</td>
+                            <td><p>Introduce a special character in PIN field, repeat this step for all Test Data</p></td>
+                            <td><p>1. ~</br>2. `</br>3. !</br>4. @</br>5. #</br>6. $</br>7. % </br>8. ^ </br>9. &</br>10. *</br>11. (</br>12. )</br>13. - </br>14. _</br>15. +</br>16.  =</br>17.  {</br>18.  }</br>19. [ </br>20.  ] </br>21.  |</br>22. \</br>23.  /</br>24. :</br>25. ; </br>26. " </br>27. '</br>28. &#60;</br>29. &#62;</br>30. ,</br>31. .</br>32. ?</br>33. ±</br>34. §</p></td>
+                            <td><p>A message "  Special characters are not allowed" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>2bfe1e2b-1e83-4435-af29-05bfd457e0ef</td>
+                            <td>4</td>
+                            <td><p>Introduce digits in PIN field, repeat this step for all Test Data</p></td>
+                            <td><p>1</br>12</br>123</br>1234</br>12345</p></td>
+                            <td><p>A message "  PIN Code must have 6 Digits" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>e6402599-3e3d-4e0f-b441-877876edf0e1</td>
+                            <td>5</td>
+                            <td><p>Pres click on PIN field and press Space button</p></td>
+                            <td></td>
+                            <td><p>A message "  First character can not have space" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">ad15ab29-4e78-4fac-9744-73dd72995986</td>
+                        <td rowspan="4">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="4">Test Cases for Create New Customer Module</td>
+                        <td rowspan="4">IT-17</td>
+                        <td rowspan="4">Check validations for the Telephone Number field</td>
+                        <td rowspan="4">ITFactory AdrianB</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">Guru99 Banking Application</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4">26/Jun/23 12:04 AM</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">26/Jun/23 12:03 AM</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>7be71ee1-8f94-4e14-bd6b-9ddd1b0dc034</td>
+                            <td>1</td>
+                            <td><p>Press click on Telephone Number field and after that click on the white space next to the field</p></td>
+                            <td></td>
+                            <td><p>A message "  Mobile no must not be blank" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>4f8f9c96-8208-41fd-bef3-8bfd91c312bb</td>
+                            <td>2</td>
+                            <td><p>Introduce a special character in Telephone Number field, repeat this step for all Test Data</p></td>
+                            <td><p>1. ~</br>2. `</br>3. !</br>4. @</br>5. #</br>6. $</br>7. % </br>8. ^ </br>9. &</br>10. *</br>11. (</br>12. )</br>13. - </br>14. _</br>15. +</br>16.  =</br>17.  {</br>18.  }</br>19. [ </br>20.  ] </br>21.  |</br>22. \</br>23.  /</br>24. :</br>25. ; </br>26. " </br>27. '</br>28. &#60;</br>29. &#62;</br>30. ,</br>31. .</br>32. ?</br>33. ±</br>34. §</p></td>
+                            <td><p>A message "  Special characters are not allowed" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>b3f32b74-09de-4af8-8371-da97061d7026</td>
+                            <td>3</td>
+                            <td><p>Introduce a character in Telephone Number field, repeat this step for all Test Data</p></td>
+                            <td><p>a, b, c, d</p></td>
+                            <td><p>A message "  Characters are not allowed" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>2c86f4b5-5547-4b03-b1a1-dddcba147f27</td>
+                            <td>4</td>
+                            <td><p>Pres click on Telephone Number field and press Space button</p></td>
+                            <td></td>
+                            <td><p>A message "  First character can not have space" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="1">f45fcda2-b5f9-4216-acaa-112f67ebe1f5</td>
+                        <td rowspan="1">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="1">Test Cases for Create New Customer Module</td>
+                        <td rowspan="1">IT-19</td>
+                        <td rowspan="1">Check validation for the Password field</td>
+                        <td rowspan="1">ITFactory AdrianB</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">Guru99 Banking Application</td>
+                        <td rowspan="1">Medium</td>
+                        <td rowspan="1">Birtaş Adrian</td>
+                        <td rowspan="1">26/Jun/23 12:07 AM</td>
+                        <td rowspan="1">PASS</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">26/Jun/23 12:07 AM</td>
+                        <td rowspan="1">Birtaş Adrian</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        
+                            <td>726bb57b-8d23-420a-8cf9-ea7cb041301f</td>
+                            <td>1</td>
+                            <td><p>Press click on Password field and after that click on the white space next to the field</p></td>
+                            <td></td>
+                            <td><p>A message "  Password must not be blank" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">b87046b9-3efc-4edd-8662-2288de4f818c</td>
+                        <td rowspan="3">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="3">Test Cases for Create New Customer Module</td>
+                        <td rowspan="3">IT-18</td>
+                        <td rowspan="3">Check validations for the Email field</td>
+                        <td rowspan="3">ITFactory AdrianB</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Guru99 Banking Application</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3">Birtaş Adrian</td>
+                        <td rowspan="3">26/Jun/23 12:06 AM</td>
+                        <td rowspan="3">PASS</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">26/Jun/23 12:06 AM</td>
+                        <td rowspan="3">Birtaş Adrian</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        
+                            <td>d1a467e5-1472-42a3-8c92-c6d107b96ba8</td>
+                            <td>1</td>
+                            <td><p>Press click on Email field and after that click on the white space next to the field</p></td>
+                            <td></td>
+                            <td><p>A message "  Email-ID must not be blank" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>3c539679-7681-4d14-bac4-9e1fb1aff1c0</td>
+                            <td>2</td>
+                            <td><p>Introduce an email address in Email field, repeat this step for all Test Data</p></td>
+                            <td><p>adi.test1gmail.com</p><p>adi.test1@gmail</p><p>aditest1@gmail.c</p></td>
+                            <td><p>A message "  Email-ID is not valid" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>b74dc531-6b49-4bde-be17-ba301eae44bd</td>
+                            <td>3</td>
+                            <td><p>Press click on Email field and press Space button</p></td>
+                            <td></td>
+                            <td><p>A message "  First character can not have space" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">79470289-fd65-45ad-a238-21776f3f60e8</td>
+                        <td rowspan="4">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="4">Test Cases for Edit Customer Module</td>
+                        <td rowspan="4">IT-6</td>
+                        <td rowspan="4">Check field validations on first page for Edit Customer module</td>
+                        <td rowspan="4">ITFactory AdrianB</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">Guru99 Banking Application</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4">27/Jun/23 12:44 AM</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">27/Jun/23 12:16 AM</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>dd0cbc98-1545-4f72-84fa-caf837ad16d6</td>
+                            <td>1</td>
+                            <td><p>Press click on Customer ID field then click on the white space near Customer ID field on the right side</p></td>
+                            <td></td>
+                            <td><p>The message "Customer ID is required" will be displayed on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>945aefb2-1ad0-486d-83b4-7e61b04a70d5</td>
+                            <td>2</td>
+                            <td><p>Introduce a special character in Customer ID field, repeat this step for all Test Data</p></td>
+                            <td><p>1. ~</br>2. `</br>3. !</br>4. @</br>5. #</br>6. $</br>7. % </br>8. ^ </br>9. &</br>10. *</br>11. (</br>12. )</br>13. - </br>14. _</br>15. +</br>16.  =</br>17.  {</br>18.  }</br>19. [ </br>20.  ] </br>21.  |</br>22. \</br>23.  /</br>24. :</br>25. ; </br>26. " </br>27. '</br>28. &#60;</br>29. &#62;</br>30. ,</br>31. .</br>32. ?</br>33. ±</br>34. §</p></td>
+                            <td><p>A message "Special characters are not allowed" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>541e4316-f9fd-4a2c-80d4-b263976a383f</td>
+                            <td>3</td>
+                            <td><p>Introduce a character in Customer ID field, repeat this step for all Test Data</p></td>
+                            <td><p>a, b, c, d, i</p></td>
+                            <td><p>A message "Characters are not allowed" will be displayed on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>9e693ccb-1e40-4810-92a9-5cc3fd8d80af</td>
+                            <td>4</td>
+                            <td><p>Pres click on Customer ID field and press Space button</p></td>
+                            <td></td>
+                            <td><p>A message "First character can not have space" will be displayed on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">f1fe8d18-459f-45c7-a1eb-60e3e147ed10</td>
+                        <td rowspan="3">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="3">Test Cases for Edit Customer Module</td>
+                        <td rowspan="3">IT-7</td>
+                        <td rowspan="3">Check Reset and Submit functionalities on the first page for Edit Customer module</td>
+                        <td rowspan="3">ITFactory AdrianB</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Guru99 Banking Application</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3">Birtaş Adrian</td>
+                        <td rowspan="3">27/Jun/23 12:49 AM</td>
+                        <td rowspan="3">PASS</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">27/Jun/23 12:48 AM</td>
+                        <td rowspan="3">Birtaş Adrian</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        
+                            <td>b0956729-c6de-4f81-8a38-0b0c6c08090e</td>
+                            <td>1</td>
+                            <td><p>Introduce a Customer ID in Customer ID field</p></td>
+                            <td><p>7448</p></td>
+                            <td><p>The manager should be able to introduce the ID in Customer ID field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>9bfbc229-c233-46a8-a7f4-7fc91ac7158e</td>
+                            <td>2</td>
+                            <td><p>Press Reset button</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to press the Reset button and the field will be emptied</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>b4b06b4d-e404-44fe-8ba2-422764ad022b</td>
+                            <td>3</td>
+                            <td><p>Repeat Step 1 and Press Submit button</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to press Submit button and Edit Customer form will be displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">2cd90cc6-81ec-4a7a-af47-4fdf703eb4ef</td>
+                        <td rowspan="3">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="3">Test Cases for Edit Customer Module</td>
+                        <td rowspan="3">IT-20</td>
+                        <td rowspan="3">Check field validations on the second page for  the Address field</td>
+                        <td rowspan="3">ITFactory AdrianB</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Guru99 Banking Application</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3">Birtaş Adrian</td>
+                        <td rowspan="3">27/Jun/23 12:53 AM</td>
+                        <td rowspan="3">PASS</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">27/Jun/23 12:53 AM</td>
+                        <td rowspan="3">Birtaş Adrian</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        
+                            <td>2c8f590b-0d58-4a63-96db-b3d38b39bc4b</td>
+                            <td>1</td>
+                            <td><p>Press click on Address field, delete all data from it and then press click on the white space near Address field on the right side</p></td>
+                            <td></td>
+                            <td><p>A message "Address Field must not be blank" will be displayed on the right side of the filed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>a32d63d8-e907-4ff0-b733-28f2bcfcac51</td>
+                            <td>2</td>
+                            <td><p>Pres click on Address field, delete all data from it and press Space button</p></td>
+                            <td></td>
+                            <td><p>A message "First character can not have space" will be displayed on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>151e21b7-d50c-48a2-b5df-1e36d79e5e0c</td>
+                            <td>3</td>
+                            <td><p>Pres click on Address field, delete all data from it and introduce a special character.</br>Introduce a special character covering each Test Data.</p></td>
+                            <td><p>1. ~</br>2. `</br>3. !</br>4. @</br>5. #</br>6. $</br>7. % </br>8. ^ </br>9. &</br>10. *</br>11. (</br>12. )</br>13. - </br>14. _</br>15. +</br>16.  =</br>17.  {</br>18.  }</br>19. [ </br>20.  ] </br>21.  |</br>22. \</br>23.  /</br>24. :</br>25. ; </br>26. " </br>27. '</br>28. &#60;</br>29. &#62;</br>30. ,</br>31. .</br>32. ?</br>33. ±</br>34. §</p></td>
+                            <td><p>A message "Special characters are not allowed" will be displayed on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">a30c864a-ded4-4837-a681-4b78fdb59f2b</td>
+                        <td rowspan="4">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="4">Test Cases for Edit Customer Module</td>
+                        <td rowspan="4">IT-21</td>
+                        <td rowspan="4">Check field validations on the second page for the City field</td>
+                        <td rowspan="4">ITFactory AdrianB</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">Guru99 Banking Application</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4">27/Jun/23 12:55 AM</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">27/Jun/23 12:54 AM</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>687b512e-221c-45a5-a0e2-b9ecda2d4eac</td>
+                            <td>1</td>
+                            <td><p>Pres click on City field, delete all data from it and introduce a special character.</br>Introduce a special character covering each Test Data.</p></td>
+                            <td><p>1. ~</br>2. `</br>3. !</br>4. @</br>5. #</br>6. $</br>7. % </br>8. ^ </br>9. &</br>10. *</br>11. (</br>12. )</br>13. - </br>14. _</br>15. +</br>16.  =</br>17.  {</br>18.  }</br>19. [ </br>20.  ] </br>21.  |</br>22. \</br>23.  /</br>24. :</br>25. ; </br>26. " </br>27. '</br>28. &#60;</br>29. &#62;</br>30. ,</br>31. .</br>32. ?</br>33. ±</br>34. §</p></td>
+                            <td><p>A message "Special characters are not allowed" will be displayed on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>196aa243-db83-415b-9890-6ea365f4ae3d</td>
+                            <td>2</td>
+                            <td><p>Press click on City field, delete all data from it and then press click on the white space near City field on the right side</p></td>
+                            <td></td>
+                            <td><p>A message "City Field must not be blank" will be displayed on the right side of the filed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>e5b440b9-30d9-46e0-b3b0-4d44ffb8bf4c</td>
+                            <td>3</td>
+                            <td><p>Press click on City field, delete all data from it and introduce a number covering each Test Data.</p></td>
+                            <td><p>1, 5, 10, 15</p></td>
+                            <td><p>A message "Numbers are not allowed" will be displayed on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>b9c1c0df-2e70-4b64-bdf9-72f62b4ffcaa</td>
+                            <td>4</td>
+                            <td><p>Press click on City field, delete all data from it and press Space button</p></td>
+                            <td></td>
+                            <td><p>A message "First character can not have space" will be displayed on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">6e52c63d-72b8-45db-a7f3-09e51f6dfdcc</td>
+                        <td rowspan="4">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="4">Test Cases for Edit Customer Module</td>
+                        <td rowspan="4">IT-22</td>
+                        <td rowspan="4">Check field validations on the second page for the State field</td>
+                        <td rowspan="4">ITFactory AdrianB</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">Guru99 Banking Application</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4">27/Jun/23 12:57 AM</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">27/Jun/23 12:56 AM</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>b4aaa18a-4dd0-4082-8616-06f8cbe675fe</td>
+                            <td>1</td>
+                            <td><p>Pres click on State field, delete all data from it and introduce a number covering each Testing Data</p></td>
+                            <td><p>1, 5, 10, 15</p></td>
+                            <td><p>A message "Numbers are not allowed" will be displayed on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>b0440c6a-1c1a-4da7-9119-878382aed895</td>
+                            <td>2</td>
+                            <td><p>Press click on State field, delete all data from it and then press click on the white space near City field on the right side</p></td>
+                            <td></td>
+                            <td><p>A message "State must not be blank" will be displayed on the right side of the filed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>8c733a9b-88ac-4f5e-ae30-8ef7716af187</td>
+                            <td>3</td>
+                            <td><p>Pres click on State field, delete all data from it and introduce a special character.</br>Introduce a special character covering each Test Data.</p></td>
+                            <td><p>1. ~</br>2. `</br>3. !</br>4. @</br>5. #</br>6. $</br>7. % </br>8. ^ </br>9. &</br>10. *</br>11. (</br>12. )</br>13. - </br>14. _</br>15. +</br>16.  =</br>17.  {</br>18.  }</br>19. [ </br>20.  ] </br>21.  |</br>22. \</br>23.  /</br>24. :</br>25. ; </br>26. " </br>27. '</br>28. &#60;</br>29. &#62;</br>30. ,</br>31. .</br>32. ?</br>33. ±</br>34. §</p></td>
+                            <td><p>A message "Special characters are not allowed" will be displayed on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>51338bad-9c8a-4de3-b97a-c8ef389e3820</td>
+                            <td>4</td>
+                            <td><p>Press click on State field, delete all data from it and press Space button</p></td>
+                            <td></td>
+                            <td><p>A message "First character can not have space" will be displayed on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="5">23cd61b0-bae2-423c-a059-84ecd1da1914</td>
+                        <td rowspan="5">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="5">Test Cases for Edit Customer Module</td>
+                        <td rowspan="5">IT-23</td>
+                        <td rowspan="5">Check field validation on the second page for the PIN field</td>
+                        <td rowspan="5">ITFactory AdrianB</td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5">Guru99 Banking Application</td>
+                        <td rowspan="5">Medium</td>
+                        <td rowspan="5">Birtaş Adrian</td>
+                        <td rowspan="5">27/Jun/23 01:03 AM</td>
+                        <td rowspan="5">PASS</td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5">27/Jun/23 12:59 AM</td>
+                        <td rowspan="5">Birtaş Adrian</td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5"></td>
+                        
+                            <td>5caa4502-9d9c-4493-960f-ecf432f5a5cc</td>
+                            <td>1</td>
+                            <td><p>Press click on PIN field, delete all data and Introduce a character in PIN field, repeat this step for all Test Data</p></td>
+                            <td><p>a, b, c, d</p></td>
+                            <td><p>A message "  Characters are not allowed" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>abe80f57-49b3-4a13-b967-4abc17ae57e0</td>
+                            <td>2</td>
+                            <td><p>Press click on PIN field, delete all data and after that click on the white space next to the field</p></td>
+                            <td></td>
+                            <td><p>A message "  PIN Code must not be blank" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>7b518549-071b-473f-947c-88aa69462f1d</td>
+                            <td>3</td>
+                            <td><p>Press click on PIN field, delete all data and introduce a special character in PIN field, repeat this step for all Test Data</p></td>
+                            <td><p>1. ~</br>2. `</br>3. !</br>4. @</br>5. #</br>6. $</br>7. % </br>8. ^ </br>9. &</br>10. *</br>11. (</br>12. )</br>13. - </br>14. _</br>15. +</br>16.  =</br>17.  {</br>18.  }</br>19. [ </br>20.  ] </br>21.  |</br>22. \</br>23.  /</br>24. :</br>25. ; </br>26. " </br>27. '</br>28. &#60;</br>29. &#62;</br>30. ,</br>31. .</br>32. ?</br>33. ±</br>34. §</p></td>
+                            <td><p>A message "  Special characters are not allowed" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>5e005e95-e607-4bf4-a1b0-21d21157b8aa</td>
+                            <td>4</td>
+                            <td><p>Press click on PIN field, delete all data and introduce digits in PIN field, repeat this step for all Test Data</p></td>
+                            <td><p>1</br>12</br>123</br>1234</br>12345</p></td>
+                            <td><p>A message "  PIN Code must have 6 Digits" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>456eb9d0-e651-49ce-9db1-c70e2ca34ded</td>
+                            <td>5</td>
+                            <td><p>Press click on PIN field, delete all data and and press Space button</p></td>
+                            <td></td>
+                            <td><p>A message "  First character can not have space" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">a7766f59-c82d-48da-a96a-633332fdc65e</td>
+                        <td rowspan="4">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="4">Test Cases for Edit Customer Module</td>
+                        <td rowspan="4">IT-24</td>
+                        <td rowspan="4">Check field validations on the second page for the Telephone field</td>
+                        <td rowspan="4">ITFactory AdrianB</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">Guru99 Banking Application</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4">27/Jun/23 01:05 AM</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">27/Jun/23 01:04 AM</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>4a350255-d80b-403f-ab39-326267e0f83d</td>
+                            <td>1</td>
+                            <td><p>Press click on Telephone field, delete all data and after that click on the white space next to the field</p></td>
+                            <td></td>
+                            <td><p>A message "  Mobile no must not be blank" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>bfdc0434-fce9-46ea-bf33-29a139d0c4f5</td>
+                            <td>2</td>
+                            <td><p>Press click on Telephone field, delete all data and after that introduce a special character, repeat this step for all Test Data</p></td>
+                            <td><p>1. ~</br>2. `</br>3. !</br>4. @</br>5. #</br>6. $</br>7. % </br>8. ^ </br>9. &</br>10. *</br>11. (</br>12. )</br>13. - </br>14. _</br>15. +</br>16.  =</br>17.  {</br>18.  }</br>19. [ </br>20.  ] </br>21.  |</br>22. \</br>23.  /</br>24. :</br>25. ; </br>26. " </br>27. '</br>28. &#60;</br>29. &#62;</br>30. ,</br>31. .</br>32. ?</br>33. ±</br>34. §</p></td>
+                            <td><p>A message "  Special characters are not allowed" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>5cfefc7e-562e-4d48-aa65-5e87101c4747</td>
+                            <td>3</td>
+                            <td><p>Press click on Telephone field, delete all data and after that Introduce a character, repeat this step for all Test Data</p></td>
+                            <td><p>a, b, c, d</p></td>
+                            <td><p>A message "  Characters are not allowed" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>d23682c2-fb2a-457d-b51e-08c42d0fec5d</td>
+                            <td>4</td>
+                            <td><p>Press click on Telephone field, delete all data and press Space button</p></td>
+                            <td></td>
+                            <td><p>A message "  First character can not have space" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">396cb756-0bca-4a52-96d3-84bfc6f77beb</td>
+                        <td rowspan="3">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="3">Test Cases for Edit Customer Module</td>
+                        <td rowspan="3">IT-25</td>
+                        <td rowspan="3">Check field validations on the second page for the Email field</td>
+                        <td rowspan="3">ITFactory AdrianB</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Guru99 Banking Application</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3">Birtaş Adrian</td>
+                        <td rowspan="3">27/Jun/23 01:16 AM</td>
+                        <td rowspan="3">PASS</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">27/Jun/23 01:06 AM</td>
+                        <td rowspan="3">Birtaş Adrian</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        
+                            <td>be7ff1c7-bfd3-4bcb-8926-a87c4610a190</td>
+                            <td>1</td>
+                            <td><p>Press click on Email field, delete all data and after that click on the white space next to the field</p></td>
+                            <td></td>
+                            <td><p>A message "  Email-ID must not be blank" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>ee578d78-e753-46d6-bcef-8d8aeab036ad</td>
+                            <td>2</td>
+                            <td><p>Press click on Email field, delete all data and after that introduce an email address in Email field, repeat this step for all Test Data</p></td>
+                            <td><p>adi.test1gmail.com</p><p>adi.test1@gmail</p><p>aditest1@gmail.c</p></td>
+                            <td><p>A message "  Email-ID is not valid" will appear on the right side</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>2700d9aa-7ed9-4a5b-97e3-4773fe6f5c69</td>
+                            <td>3</td>
+                            <td><p>Press click on Email field, delete all data and after that press Space button</p></td>
+                            <td></td>
+                            <td><p>A message "  First character can not have space" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="7">a3cfe833-19c2-41e7-8760-104aba3a4049</td>
+                        <td rowspan="7">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="7">Test Cases for Edit Customer Module</td>
+                        <td rowspan="7">IT-9</td>
+                        <td rowspan="7">Edit all possible fields for Edit Customer form</td>
+                        <td rowspan="7">ITFactory AdrianB</td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7">Guru99 Banking Application</td>
+                        <td rowspan="7">Medium</td>
+                        <td rowspan="7">Birtaş Adrian</td>
+                        <td rowspan="7">27/Jun/23 01:18 AM</td>
+                        <td rowspan="7">PASS</td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7">27/Jun/23 01:17 AM</td>
+                        <td rowspan="7">Birtaş Adrian</td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        
+                            <td>c89aa444-3802-4ba3-9a63-2443f9583b34</td>
+                            <td>1</td>
+                            <td><p>Press click on Address field, delete all data from it and introduce the information from "Test Data" section.</p></td>
+                            <td><p>Strada Crinilor</br>nr9</p></td>
+                            <td><p>The manager should be able to introduce the information from "Test Data" section in Address field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>9b9395d9-68cb-4c49-a2ee-16b53d049dd1</td>
+                            <td>2</td>
+                            <td><p>Press click on City field, delete all data from it and introduce the information from "Test Data" section.</p></td>
+                            <td><p>Praga</p></td>
+                            <td><p>The manager should be able to introduce the information from "Test Data" section in City field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>6d2d357c-259a-4868-a1a3-eae059f6e079</td>
+                            <td>3</td>
+                            <td><p>Press click on State field, delete all data from it and introduce the information from "Test Data" section.</p></td>
+                            <td><p>Cehia</p></td>
+                            <td><p>The manager should be able to introduce the information from "Test Data" section in State field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>bbcd5f43-2831-4662-acbf-45c85f702bf9</td>
+                            <td>4</td>
+                            <td><p>Press click on PIN field, delete all data from it and introduce the information from "Test Data" section.</p></td>
+                            <td><p>558877</p></td>
+                            <td><p>The manager should be able to introduce the information from "Test Data" section in PIN field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>afe0314c-1f60-4447-84bd-41472a5d1f13</td>
+                            <td>5</td>
+                            <td><p>Press click on Mobile Number field, delete all data from it and introduce the information from "Test Data" section.</p></td>
+                            <td><p>0757599959</p></td>
+                            <td><p>The manager should be able to introduce the information from "Test Data" section in Mobile Number field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>0318480f-f89a-4667-b31c-ee8ef9b29144</td>
+                            <td>6</td>
+                            <td><p>Press click on E-mail field, delete all data from it and introduce the information from "Test Data" section.</p></td>
+                            <td><p>adrian2.test@gmail.com</p></td>
+                            <td><p>The manager should be able to introduce the information from "Test Data" section in Email field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>aab96479-2988-455d-90c1-f593c424572b</td>
+                            <td>7</td>
+                            <td><p>Press Submit Button</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to press the Submit button and the form to be edited</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="7">6813a56c-ce8b-4efb-a2b7-a514bc7ecd50</td>
+                        <td rowspan="7">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="7">Test Cases for Edit Customer Module</td>
+                        <td rowspan="7">IT-10</td>
+                        <td rowspan="7">Use Reset functionality for Edit Customer form</td>
+                        <td rowspan="7">ITFactory AdrianB</td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7">Guru99 Banking Application</td>
+                        <td rowspan="7">Medium</td>
+                        <td rowspan="7">Birtaş Adrian</td>
+                        <td rowspan="7">27/Jun/23 01:21 AM</td>
+                        <td rowspan="7">PASS</td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7">27/Jun/23 01:20 AM</td>
+                        <td rowspan="7">Birtaş Adrian</td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        
+                            <td>ae846187-3276-447c-b5c1-5be318877c22</td>
+                            <td>1</td>
+                            <td><p>Press click on Address field, delete all data from it and introduce the information from "Test Data" section.</p></td>
+                            <td><p>Strada Crinilor</br>nr5</p></td>
+                            <td><p>The manager should be able to introduce the information from "Test Data" section in Address field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>36c07f2c-4678-4157-9bd0-99d00028114c</td>
+                            <td>2</td>
+                            <td><p>Press click on City field, delete all data from it and introduce the information from "Test Data" section.</p></td>
+                            <td><p>Budapest</p></td>
+                            <td><p>The manager should be able to introduce the information from "Test Data" section in City field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>60583e89-214b-4d36-924d-21e091e458e9</td>
+                            <td>3</td>
+                            <td><p>Press click on State field, delete all data from it and introduce the information from "Test Data" section.</p></td>
+                            <td><p>Hungary</p></td>
+                            <td><p>The manager should be able to introduce the information from "Test Data" section in State field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>9c7f9bb4-3bf1-40dd-9e1c-b9ae5ede462e</td>
+                            <td>4</td>
+                            <td><p>Press click on PIN field, delete all data from it and introduce the information from "Test Data" section.</p></td>
+                            <td><p>558866</p></td>
+                            <td><p>The manager should be able to introduce the information from "Test Data" section in PIN field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>8fe09f8c-91b2-46c1-8c70-9271ada4bf78</td>
+                            <td>5</td>
+                            <td><p>Press click on Mobile Number field, delete all data from it and introduce the information from "Test Data" section.</p></td>
+                            <td><p>0757599999</p></td>
+                            <td><p>The manager should be able to introduce the information from "Test Data" section in Mobile Number field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>8d34ac00-75b7-4e7e-bc55-2dc45ee90a9f</td>
+                            <td>6</td>
+                            <td><p>Press click on E-mail field, delete all data from it and introduce the information from "Test Data" section.</p></td>
+                            <td><p>adrian3.test@gmail.com</p></td>
+                            <td><p>The manager should be able to introduce the information from "Test Data" section in Email field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>78a7ad26-d44c-4610-bf8e-be51c763fa25</td>
+                            <td>7</td>
+                            <td><p>Press Reset Button</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to press the Reset button and all modified data will be reset in the form</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">a20edb32-38cb-43dc-8546-1d615a440dae</td>
+                        <td rowspan="2">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="2">Test Cases for Delete Customer Module</td>
+                        <td rowspan="2">IT-27</td>
+                        <td rowspan="2">Use Reset functionality for Delete Customer Form</td>
+                        <td rowspan="2">ITFactory AdrianB</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">Guru99 Banking Application</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2">Birtaş Adrian</td>
+                        <td rowspan="2">29/Jun/23 11:54 PM</td>
+                        <td rowspan="2">PASS</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">29/Jun/23 11:53 PM</td>
+                        <td rowspan="2">Birtaş Adrian</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        
+                            <td>7ba3c9f3-d1f7-4ba1-b6ba-9ab1911ec8ed</td>
+                            <td>1</td>
+                            <td><p>Introduce the Customer ID from Test Data in Customer ID field</p></td>
+                            <td><p>33414</p></td>
+                            <td><p>The manager should be able to introduce the Customer ID in the Customer ID field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>b8fb6f29-c4f2-46d6-9061-f2ac7c1228ac</td>
+                            <td>2</td>
+                            <td><p>Press Reset button</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to press the button and the field Customer ID will be cleared</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">b9fcbbe3-47ca-4c35-921c-c18a79fff4af</td>
+                        <td rowspan="4">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="4">Test Cases for Delete Customer Module</td>
+                        <td rowspan="4">IT-26</td>
+                        <td rowspan="4">Check validations for Delete Customer Form </td>
+                        <td rowspan="4">ITFactory AdrianB</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">Guru99 Banking Application</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4">29/Jun/23 11:52 PM</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">29/Jun/23 11:45 PM</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>63e439ba-a937-43f6-bc8b-4c6bb543021d</td>
+                            <td>1</td>
+                            <td><p>Press click on Customer ID field then click on the white space near Customer ID field on the right side</p></td>
+                            <td></td>
+                            <td><p>The message "Customer ID is required" will be displayed on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>15db9300-f1f8-4069-8da1-f719d9c944e2</td>
+                            <td>2</td>
+                            <td><p>Introduce a special character in Customer ID field, repeat this step for all Test Data</p></td>
+                            <td><p>1. ~</br>2. `</br>3. !</br>4. @</br>5. #</br>6. $</br>7. % </br>8. ^ </br>9. &</br>10. *</br>11. (</br>12. )</br>13. - </br>14. _</br>15. +</br>16.  =</br>17.  {</br>18.  }</br>19. [ </br>20.  ] </br>21.  |</br>22. \</br>23.  /</br>24. :</br>25. ; </br>26. " </br>27. '</br>28. &#60;</br>29. &#62;</br>30. ,</br>31. .</br>32. ?</br>33. ±</br>34. §</p></td>
+                            <td><p>A message "Special characters are not allowed" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>66ad976d-4ac5-478f-b859-d78c612fea12</td>
+                            <td>3</td>
+                            <td><p>Introduce a character in Customer ID field, repeat this step for all Test Data</p></td>
+                            <td><p>a, b, c, d, i</p></td>
+                            <td><p>A message "Characters are not allowed" will be displayed on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>784c9aaf-e409-4f7b-a6de-ba776a6f159d</td>
+                            <td>4</td>
+                            <td><p>Pres click on Customer ID field and press Space button</p></td>
+                            <td></td>
+                            <td><p>A message "First character can not have space" will be displayed on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">5983260f-99f9-4485-92d6-4115d285f265</td>
+                        <td rowspan="2">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="2">Test Cases for Delete Customer Module</td>
+                        <td rowspan="2">IT-28</td>
+                        <td rowspan="2">Delete a customer without a current or savings account</td>
+                        <td rowspan="2">ITFactory AdrianB</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">Guru99 Banking Application</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2">Birtaş Adrian</td>
+                        <td rowspan="2">30/Jun/23 12:00 AM</td>
+                        <td rowspan="2">PASS</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">29/Jun/23 11:59 PM</td>
+                        <td rowspan="2">Birtaş Adrian</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        
+                            <td>0edbb402-85ad-488c-b0ed-00434ecbf87c</td>
+                            <td>1</td>
+                            <td><p>Introduce the Customer ID from Test Data in Customer ID field</p></td>
+                            <td><p>33414</p></td>
+                            <td><p>The manager should be able to introduce the Customer ID in the Customer ID field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>d8b3e97b-da53-4bbe-a6d8-56e5c75b34c8</td>
+                            <td>2</td>
+                            <td><p>Press Submit button</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to press the button and the customer will be deleted from the database</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">e1ec9027-4835-4e95-b1d1-292b4c6c82e3</td>
+                        <td rowspan="2">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="2">Test Cases for Delete Customer Module</td>
+                        <td rowspan="2">IT-29</td>
+                        <td rowspan="2">Delete a customer with a current account</td>
+                        <td rowspan="2">ITFactory AdrianB</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">Guru99 Banking Application</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2">Birtaş Adrian</td>
+                        <td rowspan="2">30/Jun/23 12:03 AM</td>
+                        <td rowspan="2">PASS</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">30/Jun/23 12:01 AM</td>
+                        <td rowspan="2">Birtaş Adrian</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        
+                            <td>02b1c722-f05e-4478-8315-59479e23fd73</td>
+                            <td>1</td>
+                            <td><p>Introduce the Customer ID from Test Data in Customer ID field</p></td>
+                            <td><p>57330</p></td>
+                            <td><p>The manager should be able to introduce the Customer ID in the Customer ID field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>76771f50-f80a-4d31-88a8-732d991cd1ab</td>
+                            <td>2</td>
+                            <td><p>Press Submit button</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to press the button and the customer will be not deleted from the database. A message "Customer could not be deleted!!. First delete all accounts of this customer then delete the customer" will be displayed.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">fa9e7e21-d240-44c4-be2f-7e3193707510</td>
+                        <td rowspan="2">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="2">Test Cases for Delete Customer Module</td>
+                        <td rowspan="2">IT-30</td>
+                        <td rowspan="2">Delete a customer with a savings account</td>
+                        <td rowspan="2">ITFactory AdrianB</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">Guru99 Banking Application</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2">Birtaş Adrian</td>
+                        <td rowspan="2">30/Jun/23 12:05 AM</td>
+                        <td rowspan="2">PASS</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">30/Jun/23 12:04 AM</td>
+                        <td rowspan="2">Birtaş Adrian</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        
+                            <td>dc7b7544-e315-4310-bba8-a26d130ddb14</td>
+                            <td>1</td>
+                            <td><p>Introduce the Customer ID from Test Data in Customer ID field</p></td>
+                            <td><p>57331</p></td>
+                            <td><p>The manager should be able to introduce the Customer ID in the Customer ID field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>801cfddd-9099-459c-8be6-e5682245f7f2</td>
+                            <td>2</td>
+                            <td><p>Press Submit button</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to press the button and the customer will be not deleted from the database. A message "Customer could not be deleted!!. First delete all accounts of this customer then delete the customer" will be displayed.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">cac11c81-6928-4961-a58c-520ac580123e</td>
+                        <td rowspan="4">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="4">Test Cases for New Account module</td>
+                        <td rowspan="4">IT-32</td>
+                        <td rowspan="4">Check validations for Customer id field</td>
+                        <td rowspan="4">ITFactory AdrianB</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">Guru99 Banking Application</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4">02/Jul/23 01:49 AM</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">02/Jul/23 01:48 AM</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>cc5f6380-8a0b-42ef-9782-76e30ac9c947</td>
+                            <td>1</td>
+                            <td><p>Press click on Customer ID field then click on the white space near Customer ID field on the right side</p></td>
+                            <td></td>
+                            <td><p>The message "Customer ID is required" will be displayed on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>57e8eb73-ee92-44a1-baa9-0e13291735c0</td>
+                            <td>2</td>
+                            <td><p>Introduce a special character in Customer ID field, repeat this step for all Test Data</p></td>
+                            <td><p>1. ~</br>2. `</br>3. !</br>4. @</br>5. #</br>6. $</br>7. % </br>8. ^ </br>9. &</br>10. *</br>11. (</br>12. )</br>13. - </br>14. _</br>15. +</br>16.  =</br>17.  {</br>18.  }</br>19. [ </br>20.  ] </br>21.  |</br>22. \</br>23.  /</br>24. :</br>25. ; </br>26. " </br>27. '</br>28. &#60;</br>29. &#62;</br>30. ,</br>31. .</br>32. ?</br>33. ±</br>34. §</p></td>
+                            <td><p>A message "Special characters are not allowed" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>0dac7d40-764e-424c-96f1-bbaff87fdc15</td>
+                            <td>3</td>
+                            <td><p>Introduce a character in Customer ID field, repeat this step for all Test Data</p></td>
+                            <td><p>a, b, c, d, i</p></td>
+                            <td><p>A message "Characters are not allowed" will be displayed on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>3b84cb18-d980-4161-bdc8-4cc4a0768f2c</td>
+                            <td>4</td>
+                            <td><p>Pres click on Customer ID field and press Space button</p></td>
+                            <td></td>
+                            <td><p>A message "First character can not have space" will be displayed on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">94782337-46e4-40eb-977c-bc41e8975845</td>
+                        <td rowspan="4">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="4">Test Cases for New Account module</td>
+                        <td rowspan="4">IT-33</td>
+                        <td rowspan="4">Check validations for Initial deposit field</td>
+                        <td rowspan="4">ITFactory AdrianB</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">Guru99 Banking Application</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4">02/Jul/23 01:52 AM</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">02/Jul/23 01:50 AM</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>96643dca-8ed6-4f97-abe0-2fdd52a2ce2d</td>
+                            <td>1</td>
+                            <td><p>Press click on Initial deposit field then click on the white space near Initial deposit field on the right side</p></td>
+                            <td></td>
+                            <td><p>The message "Initial Deposit must not be blank" will be displayed on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>041bb807-6b42-4eed-9250-bd0e7626d60f</td>
+                            <td>2</td>
+                            <td><p>Introduce a special character in Initial deposit field, repeat this step for all Test Data</p></td>
+                            <td><p>1. ~</br>2. `</br>3. !</br>4. @</br>5. #</br>6. $</br>7. % </br>8. ^ </br>9. &</br>10. *</br>11. (</br>12. )</br>13. - </br>14. _</br>15. +</br>16.  =</br>17.  {</br>18.  }</br>19. [ </br>20.  ] </br>21.  |</br>22. \</br>23.  /</br>24. :</br>25. ; </br>26. " </br>27. '</br>28. &#60;</br>29. &#62;</br>30. ,</br>31. .</br>32. ?</br>33. ±</br>34. §</p></td>
+                            <td><p>A message "Special characters are not allowed" will appear on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>a9f91bcd-12d8-4afc-ab87-310b347c5e5f</td>
+                            <td>3</td>
+                            <td><p>Introduce a character in Initial deposit field, repeat this step for all Test Data</p></td>
+                            <td><p>a, b, c, d, i</p></td>
+                            <td><p>A message "Characters are not allowed" will be displayed on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>625a2db9-ccb4-4ad4-bf46-00b82906e8ef</td>
+                            <td>4</td>
+                            <td><p>Pres click on Initial deposit field and press Space button</p></td>
+                            <td></td>
+                            <td><p>A message "First character can not have space" will be displayed on the right side of the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">c6716108-1742-469d-80a0-8ed41064d2d8</td>
+                        <td rowspan="4">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="4">Test Cases for New Account module</td>
+                        <td rowspan="4">IT-34</td>
+                        <td rowspan="4">Use Reset functionality for New Account form</td>
+                        <td rowspan="4">ITFactory AdrianB</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">Guru99 Banking Application</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4">02/Jul/23 01:54 AM</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">02/Jul/23 01:52 AM</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>75697043-e191-468d-8b83-e1e72576b498</td>
+                            <td>1</td>
+                            <td><p>Press click on Customer Id field and introduce the information from Test Data in Customer Id field</p></td>
+                            <td><p>33414</p></td>
+                            <td><p>The manager should be able to press click on Customer Id field and to introduce the information from Test Data</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>4a517e3a-6361-40ed-855a-01a64c7bf615</td>
+                            <td>2</td>
+                            <td><p>Press select Current for Account Type</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to select Current for Account Type</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>4ee9705c-8438-4ce8-8532-d0a8e82b6cdd</td>
+                            <td>3</td>
+                            <td><p>Press click on Initial deposit field and introduce the information from Test Data in Initial deposit field</p></td>
+                            <td><p>500</p></td>
+                            <td><p>The manager should be able to press click on Initial deposit field and to introduce the information from Test Data</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>b659e054-592f-47a4-8508-fc9618ceca2b</td>
+                            <td>4</td>
+                            <td><p>Press Reset button</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to press Reset button. All data from Customer Id, Initial deposit will be cleared and Savings will be automatically selected for Account type.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">790d2045-aa63-44a7-a7cb-247b03b5fe28</td>
+                        <td rowspan="4">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="4">Test Cases for New Account module</td>
+                        <td rowspan="4">IT-36</td>
+                        <td rowspan="4">Create a Current Account with an Initial deposit under 500 Rs</td>
+                        <td rowspan="4">ITFactory AdrianB</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">Guru99 Banking Application</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4">03/Jul/23 02:10 AM</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">02/Jul/23 02:26 AM</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>a532e0f9-d4ef-4ca1-a36e-a1c3b95f80bf</td>
+                            <td>1</td>
+                            <td><p>Press click on Customer Id field and introduce the Customer Id from Test Data in Customer Id field</p></td>
+                            <td><p>33416</p></td>
+                            <td><p>The manager should be able to press click on Customer Id field and to introduce the Customer Id from Test Data</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>862253ae-9f23-488f-9ada-0b76659dd079</td>
+                            <td>2</td>
+                            <td><p>Press select Current for Account Type</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to select Current for Account Type</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>a3b265de-917d-42b5-bff4-208eae13c346</td>
+                            <td>3</td>
+                            <td><p>Press click on Initial deposit field and introduce the information from Test Data in Initial deposit field</p></td>
+                            <td><p>499</p></td>
+                            <td><p>The manager should be able to press click on Initial deposit field and to introduce the information from Test Data</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>57444235-a90c-40a5-8f61-a754bb6803e4</td>
+                            <td>4</td>
+                            <td><p>Press Submit button</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to press Submit button. A new Current Account will not be created and "Intial deposite must be Rs. 500 or more" message will be displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">7201a917-647b-43e6-b117-66107eb1b488</td>
+                        <td rowspan="4">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="4">Test Cases for New Account module</td>
+                        <td rowspan="4">IT-38</td>
+                        <td rowspan="4">Create a Savings Account with an Initial deposit under 500 Rs</td>
+                        <td rowspan="4">ITFactory AdrianB</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">Guru99 Banking Application</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4">03/Jul/23 02:13 AM</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">03/Jul/23 02:12 AM</td>
+                        <td rowspan="4">Birtaş Adrian</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>db4a5955-b6f6-4439-97cd-f538ac5c34b4</td>
+                            <td>1</td>
+                            <td><p>Press click on Customer Id field and introduce the Customer Id from Test Data in Customer Id field</p></td>
+                            <td><p>33418</p></td>
+                            <td><p>The manager should be able to press click on Customer Id field and to introduce the Customer Id from Test Data</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>12ba9e04-a864-4957-81f2-9cd3f43287f3</td>
+                            <td>2</td>
+                            <td><p>Press select Savings for Account Type</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to select Savings for Account Type</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>772e04c1-15c6-41a1-bfc9-c6a5e161fbea</td>
+                            <td>3</td>
+                            <td><p>Press click on Initial deposit field and introduce the information from Test Data in Initial deposit field</p></td>
+                            <td><p>499</p></td>
+                            <td><p>The manager should be able to press click on Initial deposit field and to introduce the information from Test Data</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>77fc0dee-9556-4d33-a981-d9833dec9b58</td>
+                            <td>4</td>
+                            <td><p>Press Submit button</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to press Submit button. A new Savings Account will not be created and "Intial deposite must be Rs. 500 or more" message will be displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="6">dbf1e95d-5048-4d16-ab79-b264cc295340</td>
+                        <td rowspan="6">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="6">Test Cases for New Account module</td>
+                        <td rowspan="6">IT-37</td>
+                        <td rowspan="6">Create a Savings Account</td>
+                        <td rowspan="6">ITFactory AdrianB</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">Guru99 Banking Application</td>
+                        <td rowspan="6">Medium</td>
+                        <td rowspan="6">Birtaş Adrian</td>
+                        <td rowspan="6">03/Jul/23 02:12 AM</td>
+                        <td rowspan="6">FAIL</td>
+                        <td rowspan="6"> | IT-41,IT-39</td>
+                        <td rowspan="6">03/Jul/23 02:10 AM</td>
+                        <td rowspan="6">Birtaş Adrian</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        
+                            <td>b999ce32-e337-4ce4-b539-f797fc3d7994</td>
+                            <td>1</td>
+                            <td><p>Press click on Customer Id field and introduce the Customer Id from Test Data in Customer Id field</p></td>
+                            <td><p>33417</p></td>
+                            <td><p>The manager should be able to press click on Customer Id field and to introduce the Customer Id from Test Data</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>567a7a13-9357-4f59-a888-fcdf8c4efed2</td>
+                            <td>2</td>
+                            <td><p>Press select Savings for Account Type</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to select Savings for Account Type</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>63a264a1-f26a-4612-93ae-bcfcf4451c2b</td>
+                            <td>3</td>
+                            <td><p>Press click on Initial deposit field and introduce the information from Test Data in Initial deposit field</p></td>
+                            <td><p>500</p></td>
+                            <td><p>The manager should be able to press click on Initial deposit field and to introduce the information from Test Data</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>5d03fcea-1971-4d3a-a1be-4db61b3e73fb</td>
+                            <td>4</td>
+                            <td><p>Press Submit button</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to press Submit button. A new Savings Account will be created and its information displayed.</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>2ab77412-8458-4c6f-883c-13948f33516f</td>
+                            <td>5</td>
+                            <td><p>Press Continue button</p></td>
+                            <td></td>
+                            <td><p>The home page will be displayed</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>d16c845a-cef1-45f2-bb14-aa6f580117dd</td>
+                            <td>6</td>
+                            <td><p>Repeat all steps to create a new account</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to create a second Savings Account</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="6">3f163ba8-37d9-494e-8eba-3807fd5c33b3</td>
+                        <td rowspan="6">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="6">Test Cases for New Account module</td>
+                        <td rowspan="6">IT-35</td>
+                        <td rowspan="6">Create a Current Account</td>
+                        <td rowspan="6">ITFactory AdrianB</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">Guru99 Banking Application</td>
+                        <td rowspan="6">Medium</td>
+                        <td rowspan="6">Birtaş Adrian</td>
+                        <td rowspan="6">02/Jul/23 02:25 AM</td>
+                        <td rowspan="6">FAIL</td>
+                        <td rowspan="6"> | IT-41,IT-39</td>
+                        <td rowspan="6">02/Jul/23 02:22 AM</td>
+                        <td rowspan="6">Birtaş Adrian</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        
+                            <td>d9e44bdd-7e2c-4ce9-a4f1-e2db664bff0d</td>
+                            <td>1</td>
+                            <td><p>Press click on Customer Id field and introduce the Customer Id from Test Data in Customer Id field</p></td>
+                            <td><p>33415</p></td>
+                            <td><p>The manager should be able to press click on Customer Id field and to introduce the Customer Id from Test Data</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>36bbe78a-9f7a-4c8f-8f51-6a456714c0fe</td>
+                            <td>2</td>
+                            <td><p>Press select Current for Account Type</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to select Current for Account Type</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>3e37fd3a-99d8-46c4-8ed4-26fe0b0de50c</td>
+                            <td>3</td>
+                            <td><p>Press click on Initial deposit field and introduce the information from Test Data in Initial deposit field</p></td>
+                            <td><p>500</p></td>
+                            <td><p>The manager should be able to press click on Initial deposit field and to introduce the information from Test Data</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>fceccd13-920e-4626-ae0f-bbd8d0275b7a</td>
+                            <td>4</td>
+                            <td><p>Press Submit button</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to press Submit button. A new Current Account will be created and its information displayed.</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>60fb78f1-4d6c-47a5-b782-4da6207c0f9a</td>
+                            <td>5</td>
+                            <td><p>Press Continue button</p></td>
+                            <td></td>
+                            <td><p>The home page will be displayed</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>ba0d5c37-59a9-4121-9ad8-b8938cab3d91</td>
+                            <td>6</td>
+                            <td><p>Repeat all steps to create a new account</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to create a second Current Account</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">17cebd0f-19e0-45fe-8a59-b17cae6ba3bb</td>
+                        <td rowspan="2">Guru99 Banking Application Test Cycle Summary</td>
+                        <td rowspan="2">Test Cases for Edit Account Module</td>
+                        <td rowspan="2">IT-42</td>
+                        <td rowspan="2">Edit an Account</td>
+                        <td rowspan="2">ITFactory AdrianB</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">Guru99 Banking Application</td>
+                        <td rowspan="2">Highest</td>
+                        <td rowspan="2">Birtaş Adrian</td>
+                        <td rowspan="2">04/Jul/23 02:01 AM</td>
+                        <td rowspan="2">FAIL</td>
+                        <td rowspan="2"> | IT-41</td>
+                        <td rowspan="2">04/Jul/23 01:58 AM</td>
+                        <td rowspan="2">Birtaş Adrian</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        
+                            <td>942ef6af-c246-4e3f-845f-95532e843c38</td>
+                            <td>1</td>
+                            <td><p>Press click on Account no field and introduce the Account no from Test Data in Customer Id field</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to press click on Account no field and to introduce the Account no from Test Data</p></td>
+                            <td>FAIL</td>
+                            <td><p>The Account No is missing. Follow Defects area for more details.</p></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>a77d7b63-34ab-4f60-b09d-79450fe2d75f</td>
+                            <td>2</td>
+                            <td><p>Press Submit button</p></td>
+                            <td></td>
+                            <td><p>The manager should be able to press Submit button. The account details form will be displayed to be edited</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+            </tbody>
+        </table>
+    </body>
+</html>
