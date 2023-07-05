@@ -6,15 +6,21 @@ Application under test: https://demo.guru99.com/V4/index.php
 
 Documentation : https://docs.google.com/document/d/1rPW5DV82VJT6vtA1VDSrfxaCBuAduxW0zb1yfTh_VMk/edit 
 
-**The final project will have the following section:** (Testing section will be updated here)
-
 Tools used: JIRA, Zephyr Squad 
 
 # Functional specifications
 
-The following story was generated in JIRA and outlines the functional specifications of the Dependants module, which serves as the focus for the final project.
+The following stories were generated in JIRA and outline the functional specifications of the Dependants modules, which serve as the focus for the final project.
 
-(An Image from Jira will be added)
+[Create New Customer.pdf](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/files/11961223/Create.New.Customer.pdf)
+
+[Edit Customer.pdf](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/files/11961230/Edit.Customer.pdf)
+
+[Delete Customer.pdf](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/files/11961225/Delete.Customer.pdf)
+
+[New Account.pdf](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/files/11961233/New.Account.pdf)
+
+[Edit Account.pdf](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/files/11961243/Edit.Account.pdf)
 
 # 1 Testing section
 
