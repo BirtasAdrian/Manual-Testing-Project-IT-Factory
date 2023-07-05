@@ -76,4 +76,19 @@ The following status report was generated
 
 ## 1.3 Test Analysis
 
+The testing process will be executed based on the above requirements for the Dependents module. The following test conditions were found:
+ * Enter data for all available fields and check that the dependant is created/updated/deleted
+ * View dependant details and check they are correct
+ * View all dependants in a list
+ * Check all validation constraints for the fields
 
+## 1.4 Test Design
+
+Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases 
+are boundary value analysis, equivalence partitioning and use case testing.
+
+**Test cases:**
+
+![image](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/assets/90641668/b7ae200a-f576-41a9-ba26-f41e97738c2d)
+
+The test cases with steps can be viewed here (Download and open in a browser): [Test Cases](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/blob/b4242b46ab1c784ce5af5294fbfaa29eef183fff/Guru99%20Banking%20Project/Test%20Cycle%20Summary/ZFJ-Cycles-07-04-2023.html)
