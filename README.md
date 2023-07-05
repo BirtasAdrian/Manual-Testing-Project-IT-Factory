@@ -84,13 +84,39 @@ The testing process will be executed based on the above requirements for the Dep
 
 ## 1.4 Test Design
 
-Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases 
-are boundary value analysis, equivalence partitioning and use case testing.
+Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating some of the test cases 
+was boundary value analysis, equivalence partitioning and use case testing.
 
 **Test cases:**
 
 ![image](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/assets/90641668/b7ae200a-f576-41a9-ba26-f41e97738c2d)
 
 The test cases with steps can be viewed here: [Test Cases](https://rawcdn.githack.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/b4242b46ab1c784ce5af5294fbfaa29eef183fff/Guru99%20Banking%20Project/Test%20Cycle%20Summary/ZFJ-Cycles-07-04-2023.html)
+
+
+## 1.5 Test Implementation
+
+The following elements are needed to be ready before the test execution phase begins:
+
+* Testing environment is up and running: https://demo.guru99.com/V4/index.php
+* Access to the testing environment is given: Username : mngr511485 | Password : AnerEvE
+* Cycle summary was created 
+* Test cases were added to the cycle summary
+
+## 1.6 Test Execution
+
+* Test cases are executed on the created test Cycle summary
+*  Bugs have been created based on the failed tests
+  
+ 
+* Full regression testing is needed after the bugs are fixed
+
+## 1.7 Test Completion
+
+* As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
+* The traceability matrix was generated and can be found here: [Traceability_matrix.csv](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/Traceability_matrix.xlsx)
+* Test execution chart was generated, the final report shows that a number 5 tests have failed of a total of 23 
+* A number of 23 test cases were planned for execution and all of them were executed
+* A number of 5 total bugs were found, from which the priority is: 1 is high, 4 are medium and 1 is low
 
 
