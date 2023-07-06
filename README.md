@@ -50,7 +50,7 @@ The plan encompasses the identification of test items, the features targeted for
 *   All bugs that have been resolved have undergone re-testing and have been approved by the QA team, ensuring their proper resolution.
 *   The project has met its established deadline, ensuring timely completion.
 *   No significant risks remain unaddressed or unmitigated, reducing potential impacts on the project.
-*   As part of the testing process, exploratory regression testing needs to be carried out specifically on the Manager section, including New Customer, Edit Customer, Delete Customer, New Account, Edit Account, Delete Account modules.
+*   As part of the testing process, exploratory regression testing needs to be carried out specifically on the Manager section, including New Customer, Edit Customer, Delete Customer, New Account, and Edit Account modules.
 
 #### 1.1.4 Test scope
 
@@ -117,8 +117,8 @@ The following elements are needed to be ready before the test execution phase be
 ## 1.7 Test Completion
 
 * As the Exit criteria have not been met and satisfied as mentioned in the appropriate section, this features are suggested to be fixed and retesting by the Testing team
-* After the bug "The Account No is missing on Created Account form" has been fixed it will be possible to continue testing with Edit Account and Delete Account modules.
-* The traceability matrix was generated and and looks like this :
+* After the bug "The Account No is missing on Created Account form" has been fixed it will be possible to continue testing with the Edit Account module.
+* The traceability matrix was generated and it looks like this :
 
   ![Traceability Matrix 1](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/assets/90641668/c788da20-85f0-439b-9030-07827890be59)
 
