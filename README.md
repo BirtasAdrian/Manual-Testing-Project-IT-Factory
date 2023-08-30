@@ -12,15 +12,15 @@ Tools used: JIRA, Zephyr Squad
 
 The following stories were generated in JIRA and outline the functional specifications of the Dependants modules, which serve as the focus for the final project.
 
-[Create New Customer Story](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/blob/d1b1d2cf8b99ad63046770005718e7dd7d160781/Guru99%20Banking%20Project/Create%20New%20Customer%20Story.pdf)
+* [Create New Customer Story](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/blob/d1b1d2cf8b99ad63046770005718e7dd7d160781/Guru99%20Banking%20Project/Create%20New%20Customer%20Story.pdf)
 
-[Edit Customer Story](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/blob/91eac541caeaa5499f4ed18cb7fc5da56185e403/Guru99%20Banking%20Project/Edit%20Customer%20Story.pdf)
+* [Edit Customer Story](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/blob/91eac541caeaa5499f4ed18cb7fc5da56185e403/Guru99%20Banking%20Project/Edit%20Customer%20Story.pdf)
 
-[Delete Customer Story](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/blob/e1eaf9f386152d41d916fc62277f463b2c90b4ca/Guru99%20Banking%20Project/Delete%20Customer%20Story.pdf)
+* [Delete Customer Story](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/blob/e1eaf9f386152d41d916fc62277f463b2c90b4ca/Guru99%20Banking%20Project/Delete%20Customer%20Story.pdf)
 
-[New Account Story](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/blob/e1eaf9f386152d41d916fc62277f463b2c90b4ca/Guru99%20Banking%20Project/New%20Account%20Story.pdf)
+* [New Account Story](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/blob/e1eaf9f386152d41d916fc62277f463b2c90b4ca/Guru99%20Banking%20Project/New%20Account%20Story.pdf)
 
-[Edit Account Story](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/blob/e1eaf9f386152d41d916fc62277f463b2c90b4ca/Guru99%20Banking%20Project/Edit%20Account%20Story.pdf)
+* [Edit Account Story](https://github.com/BirtasAdrian/Manual-Testing-Project-IT-Factory/blob/e1eaf9f386152d41d916fc62277f463b2c90b4ca/Guru99%20Banking%20Project/Edit%20Account%20Story.pdf)
 
 # 1 Testing section
 
