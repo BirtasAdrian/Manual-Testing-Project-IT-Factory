@@ -117,7 +117,7 @@ The following elements are needed to be ready before the test execution phase be
 
 ## 1.7 Test Completion
 
-* As the Exit criteria have not been met and satisfied as mentioned in the appropriate section, this features are suggested to be fixed and retesting by the Testing team
+* As the Exit criteria have not been met and satisfied as mentioned in the appropriate section, these features are suggested to be fixed by the development team and retested by the Testing team
 * After the bug "The Account No is missing on Created Account form" has been fixed it will be possible to continue testing with the Edit Account module.
 * The traceability matrix was generated and it looks like this :
 
