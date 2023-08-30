@@ -2,9 +2,9 @@
 -------------
 The objective of the final project for the ITF Manual Testing Course is to put into practice all the knowledge acquired throughout the course by utilizing a live application.
 
-Application under test: https://demo.guru99.com/V4/index.php
+Application under test: [demo.guru99.com](https://demo.guru99.com/V4/index.php)
 
-Documentation: https://docs.google.com/document/d/1rPW5DV82VJT6vtA1VDSrfxaCBuAduxW0zb1yfTh_VMk/edit 
+Documentation:  [Guru99 Banking](https://docs.google.com/document/d/1rPW5DV82VJT6vtA1VDSrfxaCBuAduxW0zb1yfTh_VMk/edit)
 
 Tools used: JIRA, Zephyr Squad 
 
