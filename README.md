@@ -61,7 +61,7 @@ The plan encompasses the identification of test items, the features targeted for
 
 * Project risks: lack of experience of the QA and development team in the banking industry, short deadline of Zephyr Squad trial, unavailability of test environment Guru99 Banking
   
-* Product risks: the need for increased security, bad marketing, to have better competitors, to delay the project.
+* Product risks: the lack of investment in security testing, bad marketing, to have better competitors, to delay the project.
 
 #### 1.1.6 Evaluating entry criteria
 
