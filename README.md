@@ -98,7 +98,7 @@ The test cases with steps can be viewed here: [Test Cases](https://rawcdn.githac
 
 The following elements are needed to be ready before the test execution phase begins:
 
-* Testing environment is up and running: https://demo.guru99.com/V4/index.php
+* Testing environment is up and running: [demo.guru99.com](https://demo.guru99.com/V4/index.php)
 * Access to the testing environment is given: Username : mngr511485 | Password : AnerEvE
 * Cycle summary was created "Guru99 Banking Application"
 * Test cases were added to the cycle summary
