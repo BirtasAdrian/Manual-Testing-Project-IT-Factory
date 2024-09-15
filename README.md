@@ -6,7 +6,7 @@ Application under test: [demo.guru99.com](https://demo.guru99.com/V4/index.php)
 
 Documentation:  [Guru99 Banking](https://docs.google.com/document/d/1rPW5DV82VJT6vtA1VDSrfxaCBuAduxW0zb1yfTh_VMk/edit)
 
-Tools used: JIRA, Zephyr Squad 
+Tools used: JIRA, Zephyr Squad.
 
 # Functional specifications
 
